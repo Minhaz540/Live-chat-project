@@ -1,0 +1,17 @@
+{
+  "name": "live-chat-project",
+  "version": "1.0.0",
+  "description": "A live chat app for real time chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sharif Md. Minhaz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9",
+    "nodemon": "^2.0.13"
+  }
+}
