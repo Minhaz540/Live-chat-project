@@ -10,7 +10,9 @@ const {
 	errorHandler,
 	notFoundHandler,
 } = require("./middlewares/common/error404");
-const loginRouter = require("./routers/loginRouter")
+const loginRouter = require("./routers/loginRouter");
+const usersRouter = require("./routers/usersRouter");
+const inboxRouter = require("./routers/inboxRouter");
 
 const app = express();
 dotenv.config();
